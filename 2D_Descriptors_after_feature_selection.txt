@@ -1,0 +1,31 @@
+Supporting Information for "Machine Learning from Heteroscedastic Data: Second Virial Coefficients of Alkane Isomers"
+Authors: Arpit Bansal, Andrew J. Schultz, David A. Kofke and Johannes Hachmann
+Journal of Physical Chemistry B (2022)
+
+2D descriptors from Dragon 7.0 after feature selection: 24 descriptors
+'MW'     	    : molecular weight
+'RBN'    	    : number of rotatable bonds
+'RBF'	   	    : rotatable bond fraction
+'ON1'    	    : overall modified Zagreb index of order 1
+'SNar'   	    : Narumi simple topological index (log function)
+'Xt' 	   	    : total structure connectivity index
+'MSD'    	    : mean square distance index (Balaban)
+'ECC'    	    : eccentricity
+'DECC'   	    : eccentric
+'MDDD'          : mean distance degree deviation
+'CENT'   	    : centralization
+'VAR'           : variation
+'MPC07'         : molecular path count of order 7
+'MPC08'         : molecular path count of order 8
+'MPC09' 	    : molecular path count of order 9
+'TI2_L' 	    : second Mohar index from Laplace matrix
+'ATS7m'  	    : Broto-Moreau autocorrelation of lag 7 (log function) weighted by mass
+'GGI7'   	    : topological charge index of order 7
+'GGI8'  	    : topological charge index of order 8
+'P_VSA_LogP_2'  : P_VSA-like on LogP, bin 2
+'SpMaxA_EA'     : normalized leading eigenvalue from edge adjacency matrix
+'Chi1_EA(ed)'   : connectivity-like index of order 1 from edge adjacency matrix weighted by edge degree
+'CATS2D_07_LL'  : CATS2D Lipophilic-Lipophilic at lag 07
+'B09[C-C]'	    : Presence/absence of C - C at topological distance 9
+
+Details for these descriptors can be found in Todeschini, Roberto, and Consonni, Viviana. Handbook of molecular descriptors. John Wiley & Sons, 2008.
